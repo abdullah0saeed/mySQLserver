@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { query } = require("../controllers/select");
+const { query } = require("../controllers/query");
 
 router.post("/", query);
 
